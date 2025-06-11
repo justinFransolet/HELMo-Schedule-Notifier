@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Popup</title>
+    <link rel="stylesheet" href="css/stylesheet.css"/>
+</head>
+<body>
+<h1>HELMo Schedule Notifier</h1>
+<label class="switch">
+    <input type="checkbox" id="toggleSystem">
+    <span class="slider"></span>
+</label>
+<div class="info">
+    <label for="icsUrlInput">ICS URL :</label><input type="text" id="icsUrlInput" placeholder="Entrez l'URL ICS" style="width: 70%">
+    <p id="resultStatus"></p>
+    <button id="saveIcsUrl">Enregistrer</button>
+</div>
+<div class="info">
+    <span class="label">👨‍💻 Développeur :</span> <span id="name">Fransolet Justin</span>
+</div>
+<div class="info">
+    <span class="label"> 📁 <a style="color: #4285f4" href="https://github.com/justinFransolet/HELMo-Schedule-Notifier" target="_blank">Repository</a></span>
+</div>
+<script type="module" src="libs/popup.mjs"></script>
+</body>
+</html>
