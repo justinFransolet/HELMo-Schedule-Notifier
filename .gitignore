@@ -1,0 +1,4 @@
+# Ignore git files
+.git/
+# JetBrains IDE (PhpStorm, WebStorm, etc.)
+.idea/
