@@ -24,6 +24,6 @@
     "128": "icons/icon128.png"
   },
   "background": {
-    "service_worker": "libs/background.mjs"
+    "service_worker": "libs/background.js"
   }
 }
